@@ -1,0 +1,116 @@
+header h1 {
+    /* margin-left: 200px;   */
+   border: solid;
+   /* padding-top: 200px;  */
+   border-radius: 100px;
+   text-align: center;
+   border-color: crimson;
+   font-size: 50px;
+}
+p {
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+ul {
+   list-style-type: none;
+   overflow: hidden;
+   background-color: gold;
+   margin: 10px;
+   padding: 10px;
+   font-size: 20px;
+
+}
+ul li {
+    display: inline-block;
+    position: relative;
+}
+ul li a {
+    display: block;
+    padding: 20px;
+}
+ul li ul.dropdown li {
+    display: block;
+}
+ul li ul.dropdown {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li:hover ul.dropdown {
+    display: block;
+}
+li a {
+   display:block;
+   color: Black;
+   text-align: center;
+   padding:16px;
+   text-decoration: none;
+
+}
+li {
+   float:left;
+   padding: 10px;
+   
+}
+li a:hover {
+   background-color: goldenrod;
+}
+.Paragraph {
+   background-image: url('images/imagebackrougn.jpg');
+   text-align: center;
+   padding: 20px;
+   padding-left: 20px;
+   font-size: 25px;
+   
+   
+}
+footer h1{
+    float: right;
+}
+body {
+    background-color: khaki;
+}
+.Paragraph img {
+    float: right;
+}
+.follow {
+    float: right;
+    
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+img {
+    opacity: 1.0;
+}
+img:hover {
+    opacity: 1.0;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+div.gallery {
+    float: left;
+    margin: 3px;
+    border: 1px solid black;
+    width: 305px;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.gallery:hover {
+    border: 2px solid gray;
+}
+.follow {
+    font-size: 20px;
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
